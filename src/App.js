@@ -1,15 +1,29 @@
 // import logo from './logo.svg';
 import './App.css';
+import { useState } from 'react'
+import './index.css';
 import Navbar from './components/Navbar';
-import Dropbox from './components/Dropbox';
 import TextBox from './components/TextBox';
 
 function App() {
+  const [mode, setMode] = useState('dark');
+
+  function modeColor() {
+    if (mode === 'light') {
+      setMode('dark');
+      document.body.style.backgroundColor = 'white';
+    }
+    else {
+      setMode('light');
+      document.body.style.backgroundColor = '#352F44';
+    }
+  }
+
+  
   return (
     <>
-      <Navbar title="React Tailwind"/>
-      <Dropbox/>
-      <TextBox/>
+      <Navbar title="React Tailwind" toggleMode={modeColor} modeState={mode} />
+      <TextBox modeState={mode} />
       {/* <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
