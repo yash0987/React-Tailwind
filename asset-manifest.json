@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/React-Tailwind/static/css/main.ea17ccfe.css",
+    "main.js": "/React-Tailwind/static/js/main.de66b955.js",
+    "static/js/787.28cb0dcd.chunk.js": "/React-Tailwind/static/js/787.28cb0dcd.chunk.js",
+    "static/media/darkLightMode.png": "/React-Tailwind/static/media/darkLightMode.a5f178288d3948f981f6.png",
+    "index.html": "/React-Tailwind/index.html",
+    "main.ea17ccfe.css.map": "/React-Tailwind/static/css/main.ea17ccfe.css.map",
+    "main.de66b955.js.map": "/React-Tailwind/static/js/main.de66b955.js.map",
+    "787.28cb0dcd.chunk.js.map": "/React-Tailwind/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea17ccfe.css",
+    "static/js/main.de66b955.js"
+  ]
+}
